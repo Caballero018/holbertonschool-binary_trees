@@ -30,7 +30,7 @@ int aux_binary_tree_height(const binary_tree_t *tree)
  *
  * Return: 1 if perfect, 0 otherwise. If tree is NULL, return 0
  */
-int isPerfectRec(const binary_tree_t *root, int height, int level)
+int perfectrec(const binary_tree_t *root, int height, int level)
 {
 	if (root == NULL)
 		return (0);
